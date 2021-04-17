@@ -1,10 +1,11 @@
 import React from 'react'
-import { Switch, Route, BrowserRouter as Router} from 'react-router-dom'
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
 
 import Header from './modules/shared_component/header/header'
 import Footer from './modules/shared_component/footer/footer'
 import LandingPage from './modules/landingpage/landing_page'
 import Form from './modules/form/form'
+import StaticPage from './modules/static-page/static-page'
 
 import './App.css';
 
@@ -15,7 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Header />
-
+            <StaticPage />
             <Footer />
           </Route>
         </Switch>
