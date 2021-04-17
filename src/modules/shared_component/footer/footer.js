@@ -5,20 +5,20 @@ import { faFacebookSquare,
         faLinkedin, 
         faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 
-import 'footer.css'
+import './footer.css'
 
 const Footer = () => {
     return (
         <footer>
-            <div class="copyright">
+            <div className="copyright">
                 © 2019 Uber Technologies Inc. All Rights Reserved.
-                <div class="notice">
+                <div className="notice">
                     Terms of Use<p>|</p>
                     Legal Notices<p>|</p>
                     Privacy  Security
                 </div>
             </div>
-            <div class="social">
+            <div className="social">
                 <span style={{fontSize: "48px", color: "Dodgerblue"}}>
                     <FontAwesomeIcon icon={faFacebookSquare} size="xs" />
                 </span>

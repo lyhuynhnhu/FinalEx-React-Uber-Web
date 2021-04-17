@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faUber } from '@fortawesome/free-brands-svg-icons'
 
-import 'header.css'
+import './header.css'
 
 const Header = () => {
     return (

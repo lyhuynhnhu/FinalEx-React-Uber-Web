@@ -1,0 +1,19 @@
+.registration {
+    margin-top: 80px;
+    padding-bottom: 35px;
+    border-bottom: solid 1.34px;
+    border-color: rgb(186, 187, 186);
+}
+.re-btn {
+    width: 250px;
+    height: 40px;
+    padding: 0 0 0 0;
+    background-color: black;
+    border: 1px outset;
+    border-radius: 5px;
+}
+.re-btn-p {
+    color: white;
+    font-size: 11px;
+    margin-right: 40px;
+}
