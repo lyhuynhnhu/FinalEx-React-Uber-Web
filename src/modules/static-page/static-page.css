@@ -1,0 +1,103 @@
+article {
+    height: 480px;
+    border-top: solid 1.34px;
+    border-bottom: solid 1.34px;
+    border-color: rgb(186, 187, 186);
+}
+section {
+    height: 82%;
+    background-image: url('https://www.w3schools.com/css/gradient_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(252, 251, 249);
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.explain{
+    width: 46%;
+    margin-top: 20px;
+    font-size: 8px;
+    text-align: left;
+}
+.right {
+    width: 50%;
+    margin-top: 3%;
+    color: rgb(35, 35, 66);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+h6 {
+    margin: 0 0 0 0;
+}
+.text {
+    width: 63%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 7px;
+    text-align: left;
+    line-height: 2;
+    color: rgb(155, 153, 153);
+}
+label {
+    font-size: 22px;
+    display: block;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width:920px) {
+    /* For tablet: */
+    .main {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+        padding-left: 5%;
+    }
+    .explain {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .text {
+        margin-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width:565px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+        padding-left: 3%;
+    }
+    .explain {
+        width: 95%;
+        margin-top: 5px;
+        font-size: 8px;
+    }
+    .text {
+        width: 90%;
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }
+}
