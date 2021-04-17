@@ -4,6 +4,7 @@ import { Switch, Route, BrowserRouter as Router} from 'react-router-dom'
 import Header from './modules/shared_component/header/header'
 import Footer from './modules/shared_component/footer/footer'
 import LandingPage from './modules/landingpage/landing_page'
+import Form from './modules/form/form'
 
 import './App.css';
 
@@ -14,7 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Header />
-            
+
             <Footer />
           </Route>
         </Switch>
