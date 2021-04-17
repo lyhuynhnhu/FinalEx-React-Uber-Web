@@ -1,0 +1,25 @@
+article {
+    height: 540px;
+    border-top: solid 1.34px;
+    border-bottom: solid 1.34px;
+    border-color: rgb(186, 187, 186);
+}
+section {
+    height: 80%;
+    background-image: url('https://www.w3schools.com/css/gradient_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form {
+    width: 60%;
+    height: 70%;
+    margin-top: 30px;
+    background-color: #f5f4f4;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
