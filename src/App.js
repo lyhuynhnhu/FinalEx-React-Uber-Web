@@ -35,9 +35,9 @@ function App() {
         <Router>
           <Switch>
             <Route exact path="/" component={LandingPage} />
-            <Route path="/registration-phone" component={RegisterPhone} />
-            <Route path="/registration-otp" component={OTP} />
-            <Route path="/profile" component={Profile} />
+            <Route path="/registration/components/registration-phone/register-phone" component={RegisterPhone} />
+            <Route path="/registration/components/registration-otp/otp" component={OTP} />
+            <Route path="/registration/components/profile/profile" component={Profile} />
             <Route path="/contact" component={Form} />
             <Route path="/booking" component={Booking} />
             <Route path="/static" component={StaticPage} />
