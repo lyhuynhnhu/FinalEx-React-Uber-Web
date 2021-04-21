@@ -59,7 +59,7 @@ const ContactForm = () => {
                             type="text"
                             id="name"
                             name="name"
-                            className="name-control form-control"
+                            className="name-control"
                             placeholder="Enter the issue"
                             onBlur={formik.handleBlur}
                             onChange={formik.handleChange} />
@@ -78,7 +78,7 @@ const ContactForm = () => {
                         <select
                             id="typeUser"
                             name="typeUser"
-                            className="select-control form-control"
+                            className="select-control"
                             onBlur={formik.handleBlur}
                             onChange={formik.handleChange}>
                             {options.map((option) => (
@@ -102,7 +102,7 @@ const ContactForm = () => {
                             type="text"
                             id="message"
                             name="message"
-                            className="msg-control form-control"
+                            className="msg-control"
                             placeholder="Enter your message"
                             onBlur={formik.handleBlur}
                             onChange={formik.handleChange} />
