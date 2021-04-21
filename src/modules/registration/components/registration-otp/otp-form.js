@@ -3,7 +3,7 @@ import {useHistory} from 'react-router-dom'
 import {useDispatch, useSelector} from 'react-redux'
 import { useFormik } from 'formik';
 import { validationRules, validateByRules } from '../../utils/validation'
-import otpSubmit from '../../redux/actions/otp'
+import otpSubmit from '../../../../redux/actions/otp'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';

@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useFormik } from 'formik'
 import classNames from 'classnames';
 import { validationRules, validateByRules } from '../../utils/validation'
-import phoneSm from '../../redux/actions/phone'
+import submit from '../../../../redux/actions/phone'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -28,7 +28,7 @@ const FormPhone = () => {
     const dispatch = useDispatch();
     const redirectTo = useSelector(state => state.phone.phoneSubmit.redirectTo)
     const handleSubmits = phone => {
-        const action = phoneSm(phone)
+        const action = submit(phone)
         dispatch(action)
     }
     const history = useHistory();
