@@ -11,7 +11,10 @@
     text-align: start;
 }
 .label-control {
+    width: 22%;
     padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14px;
 }
 .form-group {
     outline: none;
@@ -20,6 +23,8 @@
     background: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 3px;
+    display: flex;
+    flex-direction: row;
 }
 .name-control{
     height: 40px;
@@ -30,30 +35,25 @@
     background: #ffffff;
     border: none;
     color: #262626;
-    font-size: 15px;
-    line-height: 18px;
     box-shadow: none;
 }
 .select-control {
     height: 40px;
-    width: 75%;
-    padding: 0 0 0 45px;
+    width: 65%;
+    padding: 0 0 0 15px;
     border: none;
     color: #262626;
-    font-size: 15px;
-    line-height: 18px;
 }
 .msg-control {
     height: 100px;
     width: 57%;
     padding-left: 20px;
+    padding-top: 10px;
     outline: none;
     -webkit-appearance: none;
     border: none;
     color: #262626;
-    font-size: 15px;
     font-family: Arial;
-    line-height: 18px;
 }
 .has-error .label-control{
     outline: none;
@@ -72,7 +72,7 @@
     width: 70px;
     height: 70px;
     float: right;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-right: 5%;
     outline: none;
     box-shadow: none;
@@ -81,6 +81,7 @@
     border-style: solid;
     border-color: rgb(177, 175, 175);
 }
+
 @keyframes spin {
     0% {
       -webkit-transform: rotate(0deg);

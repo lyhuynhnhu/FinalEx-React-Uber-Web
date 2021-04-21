@@ -1,0 +1,62 @@
+article {
+    height: 540px;
+    border-top: solid 1.34px;
+    border-bottom: solid 1.34px;
+    border-color: rgb(186, 187, 186);
+}
+section {
+    height: 80%;
+    background-image: url('https://www.w3schools.com/css/gradient_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-phone {
+    width: 30%;
+    height: 70%;
+    background-color: #f5f4f4;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone-form {
+    width: 70%;
+}
+.phone-group {
+    outline: none;
+    -webkit-appearance: none;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+}
+.phone-label-ctrl {
+    width: 15%;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.phone-control {
+    height: 40px;
+    width: 65%;
+    outline: none;
+    -webkit-appearance: none;
+    background: #ffffff;
+    border: none;
+    color: #262626;
+    box-shadow: none;
+    padding-left: 5%;
+}
+.terms-group {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.terms-control {
+    font-size: 14px;
+    padding-top: 0;
+}

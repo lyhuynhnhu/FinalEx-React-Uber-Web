@@ -1,0 +1,90 @@
+article {
+    height: 540px;
+    border-top: solid 1.34px;
+    border-bottom: solid 1.34px;
+    border-color: rgb(186, 187, 186);
+}
+section {
+    height: 90%;
+    background-image: url('https://www.w3schools.com/css/gradient_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+.form-profile {
+    width: 25%;
+    height: 90%;
+    background-color: #f5f4f4;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+h2 {
+    margin: 2% 0 5% 5%;
+}
+.fullname-ctrl {
+    height: 40px;
+    width: 75%;
+    outline: none;
+    -webkit-appearance: none;
+    padding-left: 5%;
+    background: #ffffff;
+    border: none;
+    color: #262626;
+    box-shadow: none;
+    margin: 0 0 2% 5%;
+}
+.gender-control {
+    font-size: 15px;
+    margin: 1% 0 2% 5%;
+    padding-top: 0;
+}
+.gender {
+    width: 40%;
+    margin: 0 0 5% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gender-icon {
+    width: 50px;
+    height: 50px;
+    outline: none;
+    box-shadow: none;
+    border: #ffffff;
+    border-radius: 50%;
+    background-color: white;
+}
+.upload-picture {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+}
+.txt-pic {
+    width: 53%;
+    text-align: left;
+}
+.btn-upload-pic {
+    width: 70px;
+    height: 70px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(230, 225, 225);
+}
+.btn-update-profile {
+    width: 70px;
+    height: 70px;
+    outline: none;
+    box-shadow: none;
+    border-radius: 50%;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(177, 175, 175);
+    margin-left: 65%;
+}
